@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: cont1
-        image: grafana/grafana
+        image: rahamshaik/zomatoproject:myzomatoimage
         ports:
           - containerPort: 3000
 ---
